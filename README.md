@@ -40,10 +40,13 @@
 Запуск программы
 
 $ dsevents past e2_3 < model.json
+
 e1_1 e1_2 e2_1 e2_2
 
 $ dsevents future e2_3 < model.json
+
 e2_4 e1_4
 
 $ dsevents concurrent e2_3 < model.json
-e3_1 e2_2 e1_3
+
+e3_1 e3_2 e1_3
